@@ -10,9 +10,9 @@ $> ./pipex infile "ls -l" "wc -l" outfile<br>
 Should behave like: < infile ls -l | wc -l > outfile<br>
 $> ./pipex infile "grep a1" "wc -w" outfile<br>
 Should behave like: < infile grep a1 | wc -w > outfile<br>
-
-
-<b>pipex</b>
+<br>
+<br>
+<b>pipex_bonus</b>
 
 • Handle multiple pipes.<br>
 This:<br>
